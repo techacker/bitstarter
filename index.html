@@ -8,10 +8,31 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" type="text/css"> 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" type="text/css">
     <style type="text/css">
+      
       /* Large Desktop */
       @media (min-width: 980px) {
       body {
       padding-top: 60px;
+      }
+      .linediv-l {
+      border-right: 1px white solid;
+      }
+      .linediv-r {
+      border-left: 1px white solid;
+      }
+      }
+
+      /* Landscape phones and down */
+      @media (max-width: 480px) {
+      .copy {
+      padding: 2.5% 10%;
+      }
+      .linediv-l {
+      border-bottom: 1px white solid;
+      }
+      .linediv-r {
+      border-bottom: 1px white solid;
+      }
       }
 
       /* All form factors */
@@ -44,6 +65,12 @@
       .actions {
       background-color: #343434;
       padding: 3% 0%;
+      }
+      .video, .thermometer, .order, .social, .statistics {
+      text-align: center;
+      }
+      .statistics h3, .statistics p {
+      color: white;
       }
       
 
